@@ -1,4 +1,5 @@
-# Data Structure and Algorithm in JavaScript
+Data Structure and Algorithm in JavaScript
+-----
 
 Added Algorithm are:
 
