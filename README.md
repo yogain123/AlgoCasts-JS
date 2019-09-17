@@ -1,4 +1,4 @@
-# DSA-JavaScript
+# Data Structure and Algorithm in JavaScript
 
 Added Algorithm are:
 
