@@ -23,3 +23,5 @@ q.add(7);
 console.log(q);
 q.remove();
 console.log(q);
+
+module.exports = Queue;
