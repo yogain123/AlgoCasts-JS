@@ -17,6 +17,11 @@ Added Algorithm are:
 - Queue
 - Stack
 - String Reversal
+- Circular Linked List
+- Bubble Sort
+- Selection Sort
+- Merge Sort
+
 
 
 Note: All Above Algorithm will also be written in Typescript in future.
