@@ -47,14 +47,25 @@ class Linkedlist {
         this.head = firstNode;
         return result;
     }
+
+    getMidPoint() {
+        let fast = this.head;
+        let slow = this.head;
+        while (fast.next != null) {
+            fast = fast.next.next;
+            slow = slow.next;
+        }
+        return slow.data;
+    }
+
 }
 
-const nodeOne = new Node(5);
+const nodeOne = new Node(89);
 let list = new Linkedlist();
 list.head = nodeOne;
-list.insertFirst(200);
-list.insertFirst(200);
-list.insertFirst(200);
+list.insertFirst(3);
+list.insertFirst(5);
+list.insertFirst(6);
 
 list.insertLast(456);
 list.insertFirst(900);
@@ -66,3 +77,5 @@ console.log(list.getFirst().data);
 console.log(list.getLast().data);
 
 console.log(JSON.stringify(list));
+
+console.log("Mid Point is " + list.getMidPoint());
