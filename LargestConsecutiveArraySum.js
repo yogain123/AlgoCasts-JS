@@ -1,5 +1,5 @@
 class LargestArraySum {
-    hola() {
+    getLargestArraySum() {
         var a = [2, -3, 4, -1, -2, 1, 5, -3];
 
         var max_so_far = 0;
@@ -17,5 +17,5 @@ class LargestArraySum {
     }
 }
 
-let arr = new LargestArraySum();
-arr.hola();
+let largestArraySum = new LargestArraySum();
+largestArraySum.getLargestArraySum();
