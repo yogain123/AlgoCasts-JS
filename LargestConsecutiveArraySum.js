@@ -1,4 +1,3 @@
-// Java program to print largest contiguous array sum
 class LargestArraySum {
     hola() {
         var a = [2, -3, 4, -1, -2, 1, 5, -3];
