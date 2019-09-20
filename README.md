@@ -26,6 +26,7 @@ Added Algorithm are:
 - Check For Pair in Array with Sum as X : X is any Arbitrary Value
 - Largest Consecutive Sum in Array
 - Leader In Array
+- Longest Increasing Sub-Sequence
 
 
 Note: All Above Algorithm will also be written in Typescript in future.
