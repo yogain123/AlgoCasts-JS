@@ -1,14 +1,14 @@
 console.log(1);
 console.log(1);
 
-function palindrom(a: number, b: number): void {
+function fibbonici(a, b) {
     let c = a + b;
     if (c > 150)
         return;
     console.log(c);
     a = b;
     b = c;
-    palindrom(a, b) // Recursion
+    fibbonici(a, b) // Recursion
 }
 
-palindrom(1, 1);
+fibbonici(1, 1);
