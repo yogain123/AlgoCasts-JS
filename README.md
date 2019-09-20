@@ -27,6 +27,7 @@ Added Algorithm are:
 - Largest Consecutive Sum in Array
 - Leader In Array
 - Longest Increasing Sub-Sequence
+- Max Sum Such That No Two Element Are Adjacent
 
 
 Note: All Above Algorithm will also be written in Typescript in future.
