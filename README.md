@@ -1,7 +1,8 @@
 Data Structure and Algorithm in JavaScript
 -----
 
-Added Algorithm are:
+JavaSctipt
+-----
 
 - Max Char
 - Array Chunking
@@ -31,6 +32,9 @@ Added Algorithm are:
 - Segregate 0s and 1s in an array
 - Sort an array of 0's 1's and 2's in O(n);
 - Find Two Element in Array Whose Sum is Closest to Zero
+
+TypeScript
+-----
 - Selection Sort in TypeScript
 
 Note: All Above Algorithm will also be written in Typescript in future.
