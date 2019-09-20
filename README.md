@@ -28,6 +28,7 @@ Added Algorithm are:
 - Leader In Array
 - Longest Increasing Sub-Sequence
 - Max Sum Such That No Two Element Are Adjacent
-
+- Segregate 0s and 1s in an array
+- Sort an array of 0's 1's and 2's in O(n);
 
 Note: All Above Algorithm will also be written in Typescript in future.
