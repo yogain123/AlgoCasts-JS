@@ -24,6 +24,7 @@ Added Algorithm are:
 - Liner Search
 - Binary Search
 - Check For Pair in Array with Sum as X : X is any Arbitrary Value
+- Largest Consecutive Sum in Array
 
 
 Note: All Above Algorithm will also be written in Typescript in future.
