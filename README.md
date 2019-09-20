@@ -1,4 +1,4 @@
-Data Structure and Algorithm in JavaScript
+Data Structure and Algorithm in JavaScript and TypeScript
 -----
 
 JavaSctipt
