@@ -35,6 +35,6 @@ JavaSctipt
 
 TypeScript
 -----
-- Selection Sort in TypeScript
+- Selection Sort
 
 Note: All Above Algorithm will also be written in Typescript in future.
