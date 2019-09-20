@@ -21,7 +21,8 @@ Added Algorithm are:
 - Bubble Sort
 - Selection Sort
 - Merge Sort
-
+- Liner Search
+- Binary Search
 
 
 Note: All Above Algorithm will also be written in Typescript in future.
