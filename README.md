@@ -33,6 +33,7 @@ JavaSctipt
 - Sort an array of 0's 1's and 2's in O(n);
 - Find Two Element in Array Whose Sum is Closest to Zero
 - Find Next Greater Element in Array
+- Find Nth Node from end : LinkedList
 
 TypeScript
 -----
@@ -66,5 +67,6 @@ TypeScript
 - Sort an array of 0's 1's and 2's in O(n);
 - Find Two Element in Array Whose Sum is Closest to Zero
 - Find Next Greater Element in Array
+- Find Nth Node from end : LinkedList
 
 Note: All Above Algorithm will also be written in Typescript in future.
