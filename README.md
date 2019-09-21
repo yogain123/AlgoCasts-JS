@@ -37,7 +37,7 @@ JavaSctipt
 - Fibonacci
 - Delete Given Node from Linkeded List
 - Find Middle Node in LinkedList 
-- Finding Second Largest Element in Array on O(n)
+- Finding Second Largest Element in Array in O(n)
 
 TypeScript
 -----
@@ -75,7 +75,7 @@ TypeScript
 - Fibonacci
 - Delete Given Node from Linkeded List
 - Find Middle Node in LinkedList 
-- Finding Second Largest Element in Array on O(n)
+- Finding Second Largest Element in Array in O(n)
 
 
 Note: All Above Algorithm will also be written in Typescript in future.
