@@ -34,6 +34,7 @@ JavaSctipt
 - Find Two Element in Array Whose Sum is Closest to Zero
 - Find Next Greater Element in Array
 - Find Nth Node from end : LinkedList
+- Fibonacci
 
 TypeScript
 -----
@@ -68,5 +69,6 @@ TypeScript
 - Find Two Element in Array Whose Sum is Closest to Zero
 - Find Next Greater Element in Array
 - Find Nth Node from end : LinkedList
+- Fibonacci
 
 Note: All Above Algorithm will also be written in Typescript in future.
