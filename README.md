@@ -36,6 +36,7 @@ JavaSctipt
 - Find Nth Node from end : LinkedList
 - Fibonacci
 - Delete Given Node from Linkeded List
+- Find Middle Node in LinkedList 
 
 TypeScript
 -----
@@ -72,5 +73,6 @@ TypeScript
 - Find Nth Node from end : LinkedList
 - Fibonacci
 - Delete Given Node from Linkeded List
+- Find Middle Node in LinkedList 
 
 Note: All Above Algorithm will also be written in Typescript in future.
