@@ -35,6 +35,7 @@ JavaSctipt
 - Find Next Greater Element in Array
 - Find Nth Node from end : LinkedList
 - Fibonacci
+- Delete Given Give from Linkeded List
 
 TypeScript
 -----
@@ -70,5 +71,6 @@ TypeScript
 - Find Next Greater Element in Array
 - Find Nth Node from end : LinkedList
 - Fibonacci
+- Delete Given Give from Linkeded List
 
 Note: All Above Algorithm will also be written in Typescript in future.
