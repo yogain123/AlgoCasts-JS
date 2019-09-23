@@ -39,6 +39,7 @@ JavaSctipt
 - Find Middle Node in LinkedList 
 - Finding Second Largest Element in Array in O(n)
 - How do you find the missing number in a given integer array of 1 to 100
+- Hash Password
 
 TypeScript
 -----
@@ -78,7 +79,6 @@ TypeScript
 - Find Middle Node in LinkedList 
 - Finding Second Largest Element in Array in O(n)
 - How do you find the missing number in a given integer array of 1 to 100
-
-
+- Hash Password
 
 Note: All Above Algorithm will also be written in Typescript in future.
