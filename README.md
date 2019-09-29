@@ -1,8 +1,6 @@
-Data Structure and Algorithm in JavaScript and TypeScript
------
+## Data Structure and Algorithm in JavaScript and TypeScript
 
-JavaSctipt
------
+## JavaSctipt
 
 - Max Char
 - Array Chunking
@@ -36,13 +34,14 @@ JavaSctipt
 - Find Nth Node from end : LinkedList
 - Fibonacci
 - Delete Given Node from Linkeded List
-- Find Middle Node in LinkedList 
+- Find Middle Node in LinkedList
 - Finding Second Largest Element in Array in O(n)
 - How do you find the missing number in a given integer array of 1 to 100
 - Hash Password
+- Convert Map to Object
 
-TypeScript
------
+## TypeScript
+
 - Selection Sort
 - Max Char
 - Array Chunking
@@ -76,9 +75,17 @@ TypeScript
 - Find Nth Node from end : LinkedList
 - Fibonacci
 - Delete Given Node from Linkeded List
-- Find Middle Node in LinkedList 
+- Find Middle Node in LinkedList
 - Finding Second Largest Element in Array in O(n)
 - How do you find the missing number in a given integer array of 1 to 100
 - Hash Password
+- Convert Map to Object
 
 Note: All Above Algorithm will also be written in Typescript in future.
+
+## To Run JavaSctipt Code
+
+nodemon filename.js
+
+To Run Typescript Code
+ts-node filename.ts
