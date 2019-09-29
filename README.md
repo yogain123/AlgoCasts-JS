@@ -87,5 +87,6 @@ Note: All Above Algorithm will also be written in Typescript in future.
 
 nodemon filename.js
 
-To Run Typescript Code
+## To Run Typescript Code
+
 ts-node filename.ts
