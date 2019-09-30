@@ -87,7 +87,7 @@ Note: All Above Algorithm will also be written in Typescript in future.
 
 ## To Run JavaSctipt Code
 
-nodemon filename.js
+node filename.js
 
 ## To Run Typescript Code
 
