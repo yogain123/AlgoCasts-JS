@@ -85,10 +85,18 @@
 
 Note: All Above Algorithm will also be written in Typescript in future.
 
-## To Run JavaSctipt Code
+## Multiple Ways To Run JavaSctipt Code
 
 node filename.js
+yarn run js filename.js
+nodemon filename.js
+npm run js filename.js
+npm run-script filename.js
 
-## To Run Typescript Code
+## Multiple Ways To Run Typescript Code
 
 ts-node filename.ts
+yarn run ts filename.ts
+npm run ts filename.ts
+npm run-script filename.ts
+
