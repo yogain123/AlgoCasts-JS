@@ -39,6 +39,7 @@
 - How do you find the missing number in a given integer array of 1 to 100
 - Hash Password
 - Convert Map to Object
+- Find Unique in Array
 
 ## TypeScript
 
@@ -80,6 +81,7 @@
 - How do you find the missing number in a given integer array of 1 to 100
 - Hash Password
 - Convert Map to Object
+- Find Unique in Array
 
 Note: All Above Algorithm will also be written in Typescript in future.
 
