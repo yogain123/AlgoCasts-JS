@@ -1,30 +1,28 @@
 class NodeMID {
-    constructor(public data: number, public next: null | any = null) {
-    }
+  constructor(public data: number, public next: null | any = null) {}
 }
 
 class LinkedlistMID {
-    head: any | null;
-    constructor() {
-        this.head = null;
+  head: any | null;
+  constructor() {
+    this.head = null;
+  }
+
+  insertFirst(data: number): void {
+    this.head = new NodeMID(data, this.head);
+  }
+
+  middle(): void {
+    let slow = this.head;
+    let fast = this.head;
+
+    while (fast && fast.next != null) {
+      slow = slow.next;
+      fast = fast.next.next;
     }
 
-    insertFirst(data: number): void {
-        this.head = new NodeMID(data, this.head);
-    }
-
-    middle(): void {
-        let slow = this.head;
-        let fast = this.head;
-
-        while (fast && fast.next != null) {
-            slow = slow.next;
-            fast = fast.next.next;
-        }
-
-        console.log(`Middle Node is ${slow.data}`);
-
-    }
+    console.log(`Middle Node is ${slow.data}`);
+  }
 }
 
 let nodeOneMID = new NodeMID(88);

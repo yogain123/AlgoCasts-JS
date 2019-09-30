@@ -1,7 +1,13 @@
 function hashPass(email) {
-    let chunk = email.substring(0, email.length - 3);
-    let hashed = email.replace(chunk, chunk.split("").map(i => '*').join(""));
-    return hashed;
+  let chunk = email.substring(0, email.length - 3);
+  let hashed = email.replace(
+    chunk,
+    chunk
+      .split("")
+      .map(i => "*")
+      .join("")
+  );
+  return hashed;
 }
 
-hashPass("yogendrasaxena56@gmail.com") // ***********************com
+console.log(hashPass("yogendrasaxena56@gmail.com")); // ***********************com

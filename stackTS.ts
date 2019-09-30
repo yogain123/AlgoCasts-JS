@@ -1,34 +1,33 @@
 class Stack {
-    data: number[]
-    constructor() {
-        this.data = []
-    }
+  data: number[];
+  constructor() {
+    this.data = [];
+  }
 
-    add(item: number): void {
-        this.data.unshift(item);
-    }
+  add(item: number): void {
+    this.data.unshift(item);
+  }
 
-    remove() {
-        return this.data.shift();
-    }
+  remove() {
+    return this.data.shift();
+  }
 
-    push(item: number) {
-        this.data.unshift(item);
-    }
+  push(item: number) {
+    this.data.unshift(item);
+  }
 
-    pop() {
-        return this.data.shift();
-    }
+  pop() {
+    return this.data.shift();
+  }
 
-    peek() {
-        return this.data[this.data.length - 1];
-    }
+  peek() {
+    return this.data[this.data.length - 1];
+  }
 
-    isEmpty() {
-        if (this.data.length === 0)
-            return true;
-        return false;
-    }
+  isEmpty() {
+    if (this.data.length === 0) return true;
+    return false;
+  }
 }
 
 module.exports = Stack;

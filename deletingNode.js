@@ -1,28 +1,26 @@
 class Node {
-    constructor(data, next = null) {
-        this.data = data;
-        this.next = next;
-    }
+  constructor(data, next = null) {
+    this.data = data;
+    this.next = next;
+  }
 }
 
 class Linkedlist {
-    constructor() {
-        this.head = null
+  constructor() {
+    this.head = null;
+  }
+
+  insertFirst(data) {
+    this.head = new Node(data, this.head);
+  }
+
+  deletingNode(data) {
+    let firstNode = this.head;
+    while (firstNode.next.data !== data) {
+      firstNode = firstNode.next;
     }
-
-    insertFirst(data) {
-        this.head = new Node(data, this.head);
-    }
-
-    deletingNode(data) {
-        let firstNode = this.head;
-        while (firstNode.next.data !== data) {
-            firstNode = firstNode.next;
-        }
-        firstNode.next = firstNode.next.next;
-    }
-
-
+    firstNode.next = firstNode.next.next;
+  }
 }
 
 let nodeOne = new Node(88);

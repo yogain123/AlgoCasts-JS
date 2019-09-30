@@ -1,63 +1,62 @@
 class Node {
-    constructor(data, next = null) {
-        this.data = data;
-        this.next = next;
-    }
+  constructor(data, next = null) {
+    this.data = data;
+    this.next = next;
+  }
 }
 
 class Linkedlist {
-    constructor() {
-        this.head = null;
-    }
+  constructor() {
+    this.head = null;
+  }
 
-    insertFirst(data) {
-        this.head = new Node(data, this.head);
-    }
+  insertFirst(data) {
+    this.head = new Node(data, this.head);
+  }
 
-    insertLast(data) {
-        let firstNode = this.head;
-        while (this.head.next != null) {
-            this.head = this.head.next;
-        }
-        this.head.next = new Node(data);
-        this.head = firstNode;
+  insertLast(data) {
+    let firstNode = this.head;
+    while (this.head.next != null) {
+      this.head = this.head.next;
     }
+    this.head.next = new Node(data);
+    this.head = firstNode;
+  }
 
-    sizeOfList() {
-        let count = 0;
-        let firstNode = this.head;
-        while (this.head != null) {
-            this.head = this.head.next;
-            count++;
-        }
-        this.head = firstNode;
-        return count;
+  sizeOfList() {
+    let count = 0;
+    let firstNode = this.head;
+    while (this.head != null) {
+      this.head = this.head.next;
+      count++;
     }
+    this.head = firstNode;
+    return count;
+  }
 
-    getFirst() {
-        return this.head;
+  getFirst() {
+    return this.head;
+  }
+
+  getLast() {
+    let firstNode = this.head;
+    while (this.head.next != null) {
+      this.head = this.head.next;
     }
+    let result = this.head;
+    this.head = firstNode;
+    return result;
+  }
 
-    getLast() {
-        let firstNode = this.head
-        while (this.head.next != null) {
-            this.head = this.head.next;
-        }
-        let result = this.head;
-        this.head = firstNode;
-        return result;
+  getMidPoint() {
+    let fast = this.head;
+    let slow = this.head;
+    while (fast.next != null) {
+      fast = fast.next.next;
+      slow = slow.next;
     }
-
-    getMidPoint() {
-        let fast = this.head;
-        let slow = this.head;
-        while (fast.next != null) {
-            fast = fast.next.next;
-            slow = slow.next;
-        }
-        return slow.data;
-    }
-
+    return slow.data;
+  }
 }
 
 const nodeOne = new Node(89);

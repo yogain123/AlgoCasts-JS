@@ -1,20 +1,19 @@
 //How do you find the missing number in a given integer array of 1 to 100
 
 function missing(a: number[]): number | null {
+  let arr = [];
 
-    let arr = [];
+  for (const item of a) arr[item] = item;
 
-    for (const item of a)
-        arr[item] = item;
-
-    for (let i = 1; i <= 100; i++) {
-        if (i != arr[i])
-            return i;
-    }
-    return null;
+  for (let i = 1; i <= 100; i++) {
+    if (i != arr[i]) return i;
+  }
+  return null;
 }
 
-console.log(missing([1,
+console.log(
+  missing([
+    1,
     2,
     3,
     4,
@@ -111,5 +110,7 @@ console.log(missing([1,
     96,
     97,
     98,
-    99, 100
-]));
+    99,
+    100
+  ])
+);

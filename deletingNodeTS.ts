@@ -1,27 +1,24 @@
 class NodeTSD {
-    constructor(public data: number, public next: null | any = null) {
-    }
+  constructor(public data: number, public next: null | any = null) {}
 }
 
 class LinkedlistTSD {
-    head: null | any;
-    constructor() {
-        this.head = null
+  head: null | any;
+  constructor() {
+    this.head = null;
+  }
+
+  insertFirst(data: number): void {
+    this.head = new NodeTSD(data, this.head);
+  }
+
+  deletingNode(data: number): void {
+    let firstNode = this.head;
+    while (firstNode.next.data !== data) {
+      firstNode = firstNode.next;
     }
-
-    insertFirst(data: number): void {
-        this.head = new NodeTSD(data, this.head);
-    }
-
-    deletingNode(data: number): void {
-        let firstNode = this.head;
-        while (firstNode.next.data !== data) {
-            firstNode = firstNode.next;
-        }
-        firstNode.next = firstNode.next.next;
-    }
-
-
+    firstNode.next = firstNode.next.next;
+  }
 }
 
 let nodeOneTSD = new NodeTSD(88);

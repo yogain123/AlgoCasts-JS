@@ -3,52 +3,51 @@
  */
 
 class Node {
-    constructor(data, next = null) {
-        this.data = data;
-        this.next = next
-    }
+  constructor(data, next = null) {
+    this.data = data;
+    this.next = next;
+  }
 }
 
 class CircularLinkedList {
-    constructor() {
-        this.head = null;
+  constructor() {
+    this.head = null;
+  }
+
+  insertFirst(data) {
+    this.head = new Node(data, this.head);
+  }
+
+  sizeOfList() {
+    let count = 0;
+    let firstNode = this.head;
+    while (this.head != null) {
+      this.head = this.head.next;
+      count++;
+    }
+    this.head = firstNode;
+    return count;
+  }
+
+  makeCircular() {
+    let firstNode = this.head;
+    while (this.head.next != null) {
+      this.head = this.head.next;
     }
 
-    insertFirst(data) {
-        this.head = new Node(data, this.head);
-    }
+    this.head.next = firstNode;
+  }
 
-    sizeOfList() {
-        let count = 0;
-        let firstNode = this.head;
-        while (this.head != null) {
-            this.head = this.head.next;
-            count++;
-        }
-        this.head = firstNode;
-        return count;
+  checkIfCircular() {
+    let slow = this.head;
+    let fast = this.head.next;
+    while (slow && fast) {
+      slow = slow.next;
+      fast = fast.next.next;
+      if (slow == fast) return true;
     }
-
-    makeCircular() {
-        let firstNode = this.head;
-        while (this.head.next != null) {
-            this.head = this.head.next
-        }
-
-        this.head.next = firstNode;
-    }
-
-    checkIfCircular() {
-        let slow = this.head;
-        let fast = this.head.next;
-        while (slow && fast) {
-            slow = slow.next;
-            fast = fast.next.next;
-            if (slow == fast)
-                return true;
-        }
-        return false;
-    }
+    return false;
+  }
 }
 
 const nodeOne = new Node(89);

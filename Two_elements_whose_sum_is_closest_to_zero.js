@@ -7,37 +7,31 @@
 7) Repeat steps 3, 4, 5 and 6 while l < r Implementation */
 
 class Two_elements_whose_sum_is_closest_to_zero {
-    getResult() {
-        var a = [1, 60, -10, 70, -80, 85]; // -80 , -10 , 1 ,  60 , 70 , 85
+  getResult() {
+    var a = [1, 60, -10, 70, -80, 85]; // -80 , -10 , 1 ,  60 , 70 , 85
 
-        a.sort((item1, item2) => item1 - item2);
-        var first = 0;
-        var last = a.length - 1;
-        var sum = 0;
-        var min = 85;
-        var minFirstElement = 0;
-        var minSecondElement = 0;
+    a.sort((item1, item2) => item1 - item2);
+    var first = 0;
+    var last = a.length - 1;
+    var sum = 0;
+    var min = 85;
+    var minFirstElement = 0;
+    var minSecondElement = 0;
 
-        while (first < last) {
-            sum = Math.abs(a[first] + a[last]);
+    while (first < last) {
+      sum = Math.abs(a[first] + a[last]);
 
-            if (sum <= min) {
-                min = sum;
-                minFirstElement = a[first];
-                minSecondElement = a[last];
-            }
-            if (sum < 0)
-                first += 1;
-            else
-                last -= 1;
-
-
-        }
-
-
-
-        console.log(minFirstElement + "   " + minSecondElement);
+      if (sum <= min) {
+        min = sum;
+        minFirstElement = a[first];
+        minSecondElement = a[last];
+      }
+      if (sum < 0) first += 1;
+      else last -= 1;
     }
+
+    console.log(minFirstElement + "   " + minSecondElement);
+  }
 }
 
 let res = new Two_elements_whose_sum_is_closest_to_zero();

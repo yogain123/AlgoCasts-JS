@@ -1,19 +1,19 @@
 class Queue {
-    constructor() {
-        this.data = [];
-    }
+  constructor() {
+    this.data = [];
+  }
 
-    add(item) {
-        this.data.unshift(item);
-    }
+  add(item) {
+    this.data.unshift(item);
+  }
 
-    remove() {
-        return this.data.pop();
-    }
+  remove() {
+    return this.data.pop();
+  }
 
-    peek() {
-        return this.data[this.data.length - 1];
-    }
+  peek() {
+    return this.data[this.data.length - 1];
+  }
 }
 
 let q = new Queue();
