@@ -100,3 +100,8 @@ Note: All Above Algorithm will also be written in Typescript in future.
 - npm run ts filename.ts
 - npm run-script filename.ts
 
+## Running Prettier on All File
+- npm install prettier -g
+- prettier *.js
+- prettier *.ts
+
