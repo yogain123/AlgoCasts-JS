@@ -1,4 +1,5 @@
-function getUnique(arr: (number | boolean | string)[]) {
+type ArrayType = (number | boolean | string)[];
+function getUnique(arr: ArrayType): ArrayType {
   return [...new Set<number | string | boolean>(arr)];
 }
 
