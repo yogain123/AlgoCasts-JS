@@ -87,16 +87,16 @@ Note: All Above Algorithm will also be written in Typescript in future.
 
 ## Multiple Ways To Run JavaSctipt Code
 
-node filename.js
-yarn run js filename.js
-nodemon filename.js
-npm run js filename.js
-npm run-script filename.js
+- node filename.js
+- yarn run js filename.js
+- nodemon filename.js
+- npm run js filename.js
+- npm run-script filename.js
 
 ## Multiple Ways To Run Typescript Code
 
-ts-node filename.ts
-yarn run ts filename.ts
-npm run ts filename.ts
-npm run-script filename.ts
+- ts-node filename.ts
+- yarn run ts filename.ts
+- npm run ts filename.ts
+- npm run-script filename.ts
 
