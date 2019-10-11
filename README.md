@@ -84,6 +84,7 @@
 - Find Unique in Array
 
 Note: All Above Algorithm will also be written in Typescript in future.
+Few Algo not mentioned here in Readme but Available in repo (Only JS => Part of leetcode)
 
 ## Multiple Ways To Run JavaSctipt Code
 
