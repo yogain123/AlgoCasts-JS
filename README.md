@@ -106,3 +106,5 @@ Few Algo not mentioned here in Readme but Available in repo (Only JS => Part of 
 - prettier --write *.js
 - prettier --write *.ts
 
+Note : More Algo solution from Leetcode.com is been Maintained in Diffenent Repo : https://github.com/yogain123/leetCode-direct
+
