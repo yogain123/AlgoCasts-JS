@@ -106,5 +106,21 @@ Few Algo not mentioned here in Readme but Available in repo (Only JS => Part of 
 - prettier --write *.js
 - prettier --write *.ts
 
-Note : More Algo solution from Leetcode.com is been Maintained in Diffenent Repo : https://github.com/yogain123/leetCode-direct
+Note : More Algo solution from Leetcode.com is been Maintained in Diffenent Repo : https://github.com/yogain123/leetCode-direct . 
+Note : More Algo solution from Leetcode.com is been Maintained in Diffenent Repo : https://github.com/yogain123/leetCode-direct <br/>
+
+Watchout Alogs
+------
+
+- CheckForPairinArrayWithSumAsX.js
+- LargestConsecutiveArraySum.js
+- LeaderInArray.js
+- LongestIncreasingSubSequence.js
+- selectionSort.js
+- anagram2.js
+- binarySearch.js
+- chunk.js
+- linkedlist.js
+- stack.js
+- queue.js
 
