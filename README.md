@@ -106,7 +106,7 @@ Few Algo not mentioned here in Readme but Available in repo (Only JS => Part of 
 - prettier --write *.js
 - prettier --write *.ts
 
-Note : More Algo solution from Leetcode.com is been Maintained in different Repo : https://github.com/yogain123/leetCode-direct <br/>
+Note : More Algo solution from Leetcode.com is been Maintained in different Repo : https://github.com/yogain123/leetCode-direct  or inside folder leetcod e<br/>
 
 Watchout Alogs
 ------
