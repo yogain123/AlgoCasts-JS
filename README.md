@@ -123,3 +123,6 @@ Watchout Alogs
 - stack.js
 - queue.js
 
+> LICENSE: MIT
+
+Author: Yogendra Saxena
