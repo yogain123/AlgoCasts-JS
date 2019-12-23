@@ -1,4 +1,4 @@
-## Data Structure and Algorithm in JavaScript and TypeScript
+# Data Structure and Algorithm in JavaScript and TypeScript [![][license-svg]][license-url]
 
 ## JavaSctipt
 
@@ -126,3 +126,6 @@ Watchout Alogs
 > LICENSE: MIT
 
 Author: Yogendra Saxena
+
+[license-url]: https://github.com/yogain123/AlgoCasts-JS/blob/master/LICENSE
+[license-svg]: https://img.shields.io/badge/license-MIT-blue.svg
