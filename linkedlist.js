@@ -51,7 +51,7 @@ class Linkedlist {
   getMidPoint() {
     let fast = this.head;
     let slow = this.head;
-    while (fast.next != null) {
+    while (fast && fast.next != null) {
       fast = fast.next.next;
       slow = slow.next;
     }
