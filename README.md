@@ -39,6 +39,12 @@
 - Hash Password
 - Convert Map to Object
 - Find Unique in Array
+- BST
+- DFT
+- BFT
+- Level Width of Tree
+- BST Validation
+- etc..
 
 ## TypeScript
 
@@ -81,6 +87,8 @@
 - Hash Password
 - Convert Map to Object
 - Find Unique in Array
+- etc..
+
 
 Note: All Above Algorithm will also be written in Typescript in future. <br/>
 Few Algo not mentioned here in Readme but Available in repo (Only JS => Part of leetcode)
