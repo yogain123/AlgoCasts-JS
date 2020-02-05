@@ -4,7 +4,7 @@ console.log(firstNonRepeatingCharacter("aaaaabccddeee")); // b
 
 console.log(firstNonRepeatingCharacter("aaaaabccbddeee")); // _
 
-function firstNonRepeatingCharacter(str) {
+function firstNonRepeatingCharacter(str: string): string {
   let charMap = buildCharMap(str);
   for (const [key, value] of Object.entries(charMap)) {
     if (value === 1) {
@@ -14,8 +14,8 @@ function firstNonRepeatingCharacter(str) {
   return "_";
 }
 
-function buildCharMap(str) {
-  let charMap = {};
+function buildCharMap(str: string) {
+  let charMap: any = {};
   for (const item of str) {
     charMap[item] = charMap[item] + 1 || 1;
   }
