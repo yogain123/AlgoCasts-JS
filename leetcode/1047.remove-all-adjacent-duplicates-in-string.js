@@ -30,14 +30,18 @@ S consists only of English lowercase letters.
  * @param {string} S
  * @return {string}
  */
-var removeDuplicates = function(S) {
-  let res = [];
-  S.split("").forEach(item => {
-    if (res[res.length - 1] != item) return res.push(item);
-    return res.pop();
-  });
-
-  return res.join("");
+removeDuplicates("abbaca");
+function removeDuplicates(str) {
+    let res = [];
+    for (const item of str) {
+        if(res[res.length-1]===item){
+            res.pop()
+        }
+        else{
+        res.push(item);
+        }
+    }
+    console.log(res.join(""));
 };
 
 /*
