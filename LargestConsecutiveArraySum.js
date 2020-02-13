@@ -10,5 +10,5 @@ function LargestArraySum2(arr){
         if(sum>maxSoFar)
             maxSoFar=sum;
     }
-    console.log(maxSoFar);
+    console.log(maxSoFar);  // 7
 }
