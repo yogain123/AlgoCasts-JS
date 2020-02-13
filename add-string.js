@@ -27,3 +27,14 @@ var addStrings = function(num1, num2) {
 };
 
 console.log(addStrings("12345654323454878987877", "909897678987654678"));
+
+
+//======== Other Way=============
+
+console.log(addStrings2("12345654323454878987877", "909897678987654678"));
+
+function addStrings2(a,b) {
+    a =  BigInt(a);
+    b =  BigInt(b);
+    return a+b
+}
