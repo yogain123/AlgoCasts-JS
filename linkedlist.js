@@ -47,6 +47,18 @@ class Linkedlist {
     this.head = firstNode;
     return result;
   }
+  
+  reverseList() {
+        let current = this.head;
+        let prev, next = null;
+        while (current != null) {
+            next = current.next;
+            current.next = prev;
+            prev = current;
+            current = next;
+        }
+        this.head = prev;
+    }
 
   getMidPoint() {
     let fast = this.head;
