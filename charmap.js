@@ -3,4 +3,4 @@ let result = {};
 for (const item of arr) {
   result[item] = result[item] + 1 || 1;
 }
-console.log(result);
+console.log(result); // { a: 2, b: 2, c: 4, z: 1 }
