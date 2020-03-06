@@ -14,13 +14,8 @@ const romanMapping = {
 }
 var romanToInt = function(s) {
     let sum = 0;
-    let arrString = [...s];
-    let arrNumber = arrString.map(item=>romanMapping[item]);
+    let arrNumber = [...s].map(item=>romanMapping[item]);
     for(let i=0;i<arrNumber.length;){
-        if(!arrNumber[i+1]){
-            sum = sum + arrNumber[i];
-            break;
-        }
         if(arrNumber[i]<arrNumber[i+1]){
             sum = sum + arrNumber[i+1] - arrNumber[i];
             i=i+2;
