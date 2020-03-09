@@ -5,11 +5,10 @@ function localeformat(str) {
     let arr = [...str];
     let lastPart = arr.slice(-3);
     let firstPart = arr.slice(0, arr.length - 3);
-    console.log({ firstPart, lastPart });
     resultStr = "";
-    let removeComma = false;
+    let removeInitialComma = false;
     if (firstPart.length % 2 === 0) {
-      removeComma = true;
+      removeInitialComma = true;
       for (let i = firstPart.length - 1; i >= 0; i--) {
         if (i % 2 === 1) {
           resultStr = firstPart[i] + resultStr;
@@ -27,7 +26,7 @@ function localeformat(str) {
       }
     }
     resultStr = resultStr + "," + lastPart.join("");
-    if (removeComma) {
+    if (removeInitialComma) {
       resultStr = resultStr.substring(1);
     }
     return resultStr;
