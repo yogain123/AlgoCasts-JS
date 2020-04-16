@@ -1,4 +1,4 @@
-# Data Structure and Algorithm in JavaScript and TypeScript [![License][license-svg]][license-url] [![Build Status](https://travis-ci.com/simple-icons/simple-icons.svg?branch=develop)](https://travis-ci.com/simple-icons/simple-icons) [![npm version](https://img.shields.io/npm/v/simple-icons.svg)](https://www.npmjs.com/package/simple-icons)
+# Data Structure and Algorithm in JavaScript and TypeScript [![License][license-svg]][license-url] [![Build Status](https://travis-ci.com/simple-icons/simple-icons.svg?branch=develop)](https://travis-ci.com/simple-icons/simple-icons)
 ## JavaSctipt
 
 - Max Char
