@@ -23,7 +23,7 @@ var search = function(nums, target) {
     let r = nums.length-1
     
     while(l <= r){
-        let mid = parseInt(l + (r-1)/2)
+        let mid = parseInt(l + (r-l)/2)
         if(nums[mid] === target)
             return mid;
         
