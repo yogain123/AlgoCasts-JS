@@ -1,5 +1,6 @@
 # Data Structure and Algorithm in JavaScript and TypeScript [![License][license-svg]][license-url] [![Build Status](https://travis-ci.com/simple-icons/simple-icons.svg?branch=develop)](https://travis-ci.com/simple-icons/simple-icons)
-## JavaSctipt
+
+## JavaScript
 
 - Max Char
 - Array Chunking
@@ -93,7 +94,7 @@
 Note: All Above Algorithm will also be written in Typescript in future. <br/>
 Few Algo not mentioned here in Readme but Available in repo (Only JS => Part of leetcode)
 
-## Multiple Ways To Run JavaSctipt Code
+## Multiple Ways To Run JavaScript Code
 
 - node filename.js
 - yarn run js filename.js
