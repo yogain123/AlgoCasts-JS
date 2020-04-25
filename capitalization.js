@@ -1,5 +1,6 @@
 console.log(capitalization("hello my name is yogendra")); // Hello My Name Is Yogendra
-
+console.log(capitalization2("hello my name is yogendra")); // Hello My Name Is Yogendra
+ 
 function capitalization(sentence) {
   let temp = sentence.split(" ");
   let modifiedTemp = temp.map(item => {
@@ -7,4 +8,9 @@ function capitalization(sentence) {
     return res;
   });
   return modifiedTemp.join(" ");
+}
+
+function capitalization2(str) {
+  str.match(/\s\w|^\w/mig).forEach(m => str = str.replace(m, m.toUpperCase()))
+  return str;
 }
